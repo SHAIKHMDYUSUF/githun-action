@@ -1,0 +1,16 @@
+name: Python-CI
+on: workflow_dispatch
+jobs:
+    build:
+        runs-on: ubantu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@06
+            - name: Setup up Python
+              uses: actions/setup-python@v7
+              with:
+                python-version: '3.12'
+            - name: show python version
+              run : python --version
+
+

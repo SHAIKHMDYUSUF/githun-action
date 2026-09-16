@@ -5,7 +5,7 @@ jobs:
         runs-on: ubantu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@06
+              uses: actions/checkout@v6
             - name: Setup up Python
               uses: actions/setup-python@v6
               with:

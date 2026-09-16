@@ -7,7 +7,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@06
             - name: Setup up Python
-              uses: actions/setup-python@v7
+              uses: actions/setup-python@v6
               with:
                 python-version: '3.12'
             - name: show python version

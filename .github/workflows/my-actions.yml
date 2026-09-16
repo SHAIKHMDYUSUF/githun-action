@@ -2,7 +2,7 @@ name: Python-CI
 on: push
 jobs:
     build:
-        runs-on: ubantu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Checkout code1
               uses: actions/checkout@v6
